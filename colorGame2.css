@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(0, 0,0);
+    margin:0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h1{
+    margin: 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color:white;
+    background-color: #232323;
+    line-height: 1.5em;
+    padding-top: 15px;
+}
+.gameDisplay{
+    text-align: center;
+    background-color: rgb(42, 36, 77);
+    height: 30px;
+    
+}
+.resultDisplay{
+    font-size: 2.5rem;
+}
+.resultDisplay1{
+    transition: .5s all;
+    scale: 1.9;
+}
+.resultDisplay2{
+    transition: .5s all;
+    font-size: 25px;
+}
+
+.selected{
+    color: steelblue;
+    background: rgb(255, 255, 255);
+}
+span{
+    position: relative;
+    bottom:23px;
+}
+button{
+    background:none;
+    color: white;
+    position: relative;
+    bottom:23px;
+    border: none;
+    outline:none;
+    height: inherit;
+    font-family:'Franklin Gothic Medium';
+    font-size: 0.4em;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+#container{
+    max-width: 800px;
+    margin: 60px auto;
+}
+.square{
+    width: 30%;
+    margin:1.6%;
+    padding-top: 30%;
+    background-color: rgb(199, 216, 48);
+    float: right;
+    border-radius: 10%;
+}
